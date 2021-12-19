@@ -1,0 +1,4 @@
+Сборка образа
+docker build ./ --tag stocks_products
+Запуск контейнера
+docker run --name my_stockproducts -d -p 8000:8000 stocks_products:latest
